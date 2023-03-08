@@ -1,20 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CogumeloListComponent } from './cogumelo-list/cogumelo-list.component';
+import { CogumeloCardComponent } from './cogumelo-card/cogumelo-card.component';
+import { CogumeloService } from 'src/_services/cogumelo.service';
+import { HttpClientModule } from  '@angular/common/http';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CogumeloListComponent
+    CogumeloListComponent,
+    CogumeloCardComponent,
+    HeaderComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    BrowserModule
   ],
-  providers: [],
+  providers: [
+    CogumeloService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

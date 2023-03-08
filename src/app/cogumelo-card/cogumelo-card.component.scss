@@ -1,0 +1,59 @@
+
+.cogumelo-card {
+    display: flex;
+    margin: 0 5px 50px;
+    padding: 10px;
+    max-width: 315px;
+    min-width: 315px;
+    max-height: 329.72px;
+    min-height: 329.72px;
+    flex-flow: column;
+    place-items: center;
+    color: white;
+    border: 3px solid white;
+  
+
+&__number,
+&__name {
+  padding: 0 10px;
+ 
+   
+}
+
+&__categoria {
+    display: flex;
+}
+
+&__categorias {
+    flex-flow: row;
+    margin: 0 10px;
+    padding: 5px;
+}
+}
+
+
+
+.shadow
+{
+    display:block;
+    position:relative;
+}
+
+img {
+    width: 100%;
+    object-fit: scale-down;
+    max-height: 250px;
+
+}
+
+.shadow:before
+{
+    display:block;
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    -moz-box-shadow:inset 0px 0px 3px 1px  #ffffff;
+    -webkit-box-shadow:inset 2px 2px 6px 1px  #fefefe;
+    box-shadow:inset 0px 0px 3px 1px  #f9f9f9;
+}
