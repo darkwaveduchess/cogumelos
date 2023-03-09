@@ -1,0 +1,11 @@
+
+
+.cutoff-text {
+    padding-bottom: 0.2rem;
+    background: var(--color-gray);
+    --maxlines: 7;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--maxlines);
+}

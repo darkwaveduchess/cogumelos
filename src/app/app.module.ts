@@ -6,13 +6,15 @@ import { CogumeloCardComponent } from './cogumelo-card/cogumelo-card.component';
 import { CogumeloService } from 'src/_services/cogumelo.service';
 import { HttpClientModule } from  '@angular/common/http';
 import { HeaderComponent } from './header/header.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CogumeloListComponent,
     CogumeloCardComponent,
-    HeaderComponent
+    HeaderComponent,
+    NewsComponent
   ],
   imports: [
     HttpClientModule,
