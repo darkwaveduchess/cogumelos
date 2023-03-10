@@ -11,44 +11,48 @@ import { Cogumelo } from '../../_model/Cogumelo';
 export class CogumeloListComponent {
   public cogumelos: Cogumelo[] = [
     {
-      image: 'https://i0.wp.com/files.agro20.com.br/uploads/2020/07/Benef%C3%ADcios-do-cogumelo-2.jpg?resize=1024%2C835&ssl=1',
+      image: 'https://www.pngall.com/wp-content/uploads/2016/03/Mushroom-PNG-File.png',
       number: 1,
       name: 'Benef',
       categorias: [
         Categoria.Venenoso,
         Categoria.Comestível,
       ],
+      more: ''
     },
 
     {
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmXf00iTQfzfY8S96El5Z357EHAGmBkTLLxh0kj-vw5rkUuDb0uwItOHHiMDHjB0mQy5s&usqp=CAU',
-      number: 1,
+      image: 'https://www.freeiconspng.com/thumbs/mushroom-png/mushroom-png-transparent-0.png',
+      number: 2,
       name: 'Benef',
       categorias: [
         Categoria.Venenoso,
         Categoria.Comestível,
       ],
+      more: ''
     },
 
     {
-      image: 'https://www.rbsdirect.com.br/imagesrc/24243284.jpg?w=700',
-      number: 1,
+      image: 'https://i.pinimg.com/originals/ff/57/c7/ff57c7a9d8ece0a2539eac359110e1d6.png',
+      number: 3,
       name: 'Benef',
       categorias: [
         Categoria.Venenoso,
         Categoria.Comestível,
       ],
+      more: ''
     },
 
     
     {
-      image: 'https://i0.wp.com/files.agro20.com.br/uploads/2020/07/Benef%C3%ADcios-do-cogumelo-2.jpg?resize=1024%2C835&ssl=1',
+      image: 'https://pngfolio.com/images/all_img/copy/1635685314mushroom-png.png',
       number: 1,
       name: 'Benef',
       categorias: [
         Categoria.Venenoso,
         Categoria.Comestível,
       ],
+      more: ''
     },
     
     

@@ -6,13 +6,13 @@
   }
   
   .page-header {
-    background-color: rgb(41, 5, 13);
+    background-color: transparent;
     padding: 1.3rem;
     display: flex;
     justify-content: space-between;
   }
   .logo {
-    background-color: rgb(41, 5, 13);
+    background-color: white;
     color: white;
     align-self: center;
     margin-left: 1.2rem;
@@ -24,16 +24,15 @@
   }
   
   .nav-bar a {
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 1.5rem;
     cursor: pointer;
     text-decoration: none;
     font-size: 1.2rem;
-    background-color: rgb(41, 5, 13);
+    background-color: white;
   }
   
   .menu-icon {
-    background-color: rgb(41, 5, 13);
     color: white;
     cursor: pointer;
     display: none;
@@ -41,7 +40,7 @@
   }
   
   button {
-    background-color: rgb(138, 172, 124);
+    background-color: white;
     font-size: 1rem;
     border: 1px solid rgb(169, 169, 169);
     border-radius: 5px;
@@ -49,9 +48,9 @@
   }
 
   p {
-    color: rgb(35, 161, 175);
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    background-color: rgb(41, 5, 13);
+    background-color: white;
     
   }
 

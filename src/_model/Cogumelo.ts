@@ -6,4 +6,5 @@ export interface Cogumelo {
   number: number;
   name: string;
   categorias: Categoria[];
+  more: string;
 }
